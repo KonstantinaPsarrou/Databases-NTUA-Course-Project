@@ -5,7 +5,7 @@ $serverName = "YOUR SERVER NAME"; //serverName\instanceName
 // The connection will be attempted using Windows Authentication.
 $connectionInfo = array( "Database"=>"YOUR DATABASE NAME");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
-
+ 
 if( $conn );
 else{
      echo "Connection could not be established.<br />";
