@@ -1,6 +1,6 @@
 <!-- Statisctics per age group.
 Will Include question 11 -->
-
+ 
 <?php
 include 'connect.php'
 ?>
