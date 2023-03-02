@@ -9,7 +9,7 @@ create table Customer(
     primary key (NFC_ID),
     check (DocType in ('ID', 'Passport'))
 );
-
+ 
 create table Email (
     NFC_ID int not NULL,
     Email varchar(50) not NULL,
