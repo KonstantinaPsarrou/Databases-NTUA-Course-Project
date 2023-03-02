@@ -1,6 +1,6 @@
 <!-- Covid Case tracing, Possible other Cases.
 Will Include questions 9 and 10 -->
-
+ 
 <?php
 include 'connect.php'
 ?>
